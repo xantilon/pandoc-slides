@@ -11,8 +11,8 @@ revealjs:
 			-V revealjs-url=node_modules/reveal.js \
 #not working			-V theme=moon \
 			--slide-level 2 \
-			--self-contained \
-			--css node_modules\reveal.js\css\moon.css
+			--self-contained 
+#not working			--css node_modules\reveal.js\css\moon.css
 	
 	open habits_rv.html
 
