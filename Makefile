@@ -9,9 +9,9 @@ revealjs:
 #	pandoc -s -t revealjs habits.md -o habits_rv.html  --self-contained -V revealjs-url=node_modules/reveal.js
 	pandoc -i -s -t revealjs habits.md -o habits_rv.html  \
 			-V revealjs-url=node_modules/reveal.js \
-#not working			-V theme=moon \
 			--slide-level 2 \
 			--self-contained 
+#not working			-V theme=moon \
 #not working			--css node_modules\reveal.js\css\moon.css
 	
 	open habits_rv.html
