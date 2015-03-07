@@ -12,7 +12,10 @@ revealjs:
 			-V revealjs-url=node_modules/reveal.js \
 			--slide-level 2 \
 			--self-contained \
-			-V theme:moon
+			--webtex
+#not working			--mathml=http://www.maths.nottingham.ac.uk/personal/drw/LaTeXMathML.js			
+#not working			--jsmath
+#not working			-V theme:moon
 #not working			-V theme=moon \	
 #not working			--css node_modules\reveal.js\css\moon.css
 	

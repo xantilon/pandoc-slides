@@ -1,0 +1,4 @@
+habits*.*
+!habits.md
+
+node_modules/

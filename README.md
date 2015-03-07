@@ -22,3 +22,20 @@ It needs to have [pandoc](//johnmacfarlane.net/pandoc/README.html) and [npm](//n
 ## Todo
 
 still didn't get pandoc to use the theme
+
+## Conclusion
+
+Pandoc is great. But it is so powerful (=complex, versatile), that it is difficult to keep all the features updated. I found out, that ~~all~~ most I was trying here is due to [this bug](https://github.com/jgm/pandoc/issues/1891). The RevealJS update broke functionalities in pandoc. So downloading nd installing all the dependencies with npm shouldn't be necessary once this bug is fixed.
+
+After that just remember the one commandline:
+
+```
+pandoc -i -s -t revealjs habits.md -o habits_rv.html  \
+            -V revealjs-url=node_modules/reveal.js \
+            --slide-level 2 \
+            --self-contained \
+            -V theme:moon
+```
+
+For MathML support, I have to look into, when I need it. For now none of the options deliver usable result. Only *--webtex* works, but is hideous. 
+

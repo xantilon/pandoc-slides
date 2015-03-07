@@ -19,14 +19,14 @@ auch keine Speakernotes
 - Eat eggs
 - Drink coffee
 
-## Work
-### Do math
+# Daytime
+## Do math
 
 $p\left(n,k,i\right)=\dfrac{{n-i-1 \choose k-1}}{{n \choose k}}$
 
- . . .
+\$\frac12\$
 
-### Code stuff
+## Code stuff
 
 ```
 var goodMorning = {
@@ -42,9 +42,7 @@ This is my note.
 
 </div>
 
-. . . 
-
-### Document
+## Document
 
 +---------+---------------------------+
 | Some    | information               |
