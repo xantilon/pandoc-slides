@@ -14,6 +14,26 @@ auch keine Speakernotes
 - Turn off alarm
 - Get out of bed
 
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+## Work
+### Do math
+
+$p\left(n,k,i\right)=\dfrac{{n-i-1 \choose k-1}}{{n \choose k}}$
+
+ . . .
+
+### Code stuff
+
+```
+var goodMorning = {
+    "greet": "Have a nice day!",
+    "coffee": "strong"
+}
+```
 <div class="notes">
 This is my note.
 
@@ -22,10 +42,18 @@ This is my note.
 
 </div>
 
-## Breakfast
+. . . 
 
-- Eat eggs
-- Drink coffee
+### Document
+
++---------+---------------------------+
+| Some    | information               |
++---------+---------------------------+
+| must be | written down to           |
+|         | document stuff. make some |
+|         | more lines here.          |
++---------+---------------------------+
+
 
 # In the evening
 ## Dinner

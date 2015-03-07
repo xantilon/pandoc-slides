@@ -1,8 +1,9 @@
 make:
 	install
 	revealjs
-	slidy
-	beamer
+	#slidy
+	#beamer
+	#dz
 	clean
 
 revealjs:	
@@ -10,8 +11,9 @@ revealjs:
 	pandoc -i -s -t revealjs habits.md -o habits_rv.html  \
 			-V revealjs-url=node_modules/reveal.js \
 			--slide-level 2 \
-			--self-contained 
-#not working			-V theme=moon \
+			--self-contained \
+			-V theme:moon
+#not working			-V theme=moon \	
 #not working			--css node_modules\reveal.js\css\moon.css
 	
 	open habits_rv.html
@@ -30,6 +32,13 @@ beamer:
 			--self-contained
 
 	open habits_bm.pdf
+
+dz:
+	pandoc -t dzslides -s habits.md -o habits_dz.html  \
+	--self-contained \
+	--slide-level 2 \
+
+	open habits_dz.html
 
 install:
 	npm install
